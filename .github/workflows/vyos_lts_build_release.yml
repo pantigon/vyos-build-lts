@@ -53,7 +53,7 @@ jobs:
           
           ./build-vyos-image iso \
             --architecture "amd64" \
-            --build-by "9667078+naa0yama@users.noreply.github.com" \
+            --build-by "pantigon@users.noreply.github.com" \
             --build-type "release" \
             --version "${{ inputs.version }}"
 
